@@ -1,0 +1,354 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss ***!
+  \**************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap);
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css ***!
+  \********************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss (1) ***!
+  \******************************************************************************************************************/
+@media screen and (max-width: 1200px) {
+  body {
+    --blocktitlesize:48px;
+    --blocktextsize:24px;
+  }
+  body .App .body .container .back .back2 {
+    display: none;
+  }
+  body .App .body .container .back .back3 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    max-height: 5750px;
+    --blocktitlesize: 64px;
+    --blocktextsize: 32px;
+  }
+}
+@font-face {
+  font-family: "Minecraft";
+  src: url(82ba08919dc2add9422f.otf);
+}
+.App {
+  --scrollTop: 0px;
+  max-height: 5750px;
+  height: 100%;
+}
+.App .parallax {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.App .parallax #p-1 {
+  z-index: -1;
+  position: absolute;
+  background-image: url(c29287150a0fcec2df5c.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  transform: translate3d(0, calc(var(--scrollTop) / 4), 0);
+}
+.App .parallax .p-2 {
+  z-index: -3;
+  position: absolute;
+  transform: translate3d(0, calc(var(--scrollTop) / 6), 0);
+}
+.App .parallax .p-2 .title {
+  background-image: url(da25b5d7065b80eceafc.png);
+  background-size: cover;
+  width: 75vw;
+  height: 30vh;
+}
+.App .parallax .p-2 > button {
+  pointer-events: all;
+  position: relative;
+  background-image: url(e20255346c9e9369ed08.png);
+  min-width: 464px;
+  min-height: 77px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Minecraft";
+  font-size: 48px;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 2;
+}
+.App .parallax #p-4 {
+  z-index: -4;
+  position: absolute;
+  background-image: url(8841e1ced67da205d3ca.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.App .body {
+  margin-top: -40px;
+  background-color: rgb(40, 114, 28);
+  width: 100vw;
+  height: 5750px;
+  border-top-right-radius: 51px;
+  border-top-left-radius: 51px;
+}
+.App .body .container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.App .body .container .bottom {
+  position: absolute;
+  left: 0px;
+  margin-top: 430px;
+  background-image: url(177fdd647cd02d910082.png);
+  width: 100vw;
+  height: 110vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App .body .container .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 6000px;
+}
+.App .body .container .back .back-elem {
+  width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.App .body .container .back .back1 {
+  background-image: url(338fd5f29759a5dbeefa.png);
+  width: 15%;
+  min-height: 5%;
+  margin-left: 72%;
+}
+.App .body .container .back .back2 {
+  background-image: url(1c46bfcbc58b33d56af9.svg);
+  width: 30%;
+  min-height: 10%;
+  margin-left: 35%;
+  display: none;
+}
+.App .body .container .back .back3 {
+  background-image: url(1c46bfcbc58b33d56af9.svg);
+  width: 300px;
+  transform: scale(-1, 1);
+  margin-left: 30%;
+  margin-top: -80px;
+  display: none;
+}
+.App .body .container .back .back4 {
+  background-image: url(338fd5f29759a5dbeefa.png);
+  width: 15%;
+  min-height: 5%;
+  margin-left: 72%;
+  margin-top: 1200px;
+}
+.App .body .container .back .back5 {
+  background-image: url(338fd5f29759a5dbeefa.png);
+  width: 15%;
+  min-height: 5%;
+  margin-left: 3%;
+  margin-top: 40vh;
+}
+.App .body .container .About {
+  z-index: 1;
+}
+.App .body .container .About .block {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.App .body .container .About .block .img {
+  background-image: url(490197755c877bbf2950.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 300px;
+}
+.App .body .container .About .block .text {
+  align-items: center;
+  margin-top: 5%;
+}
+.App .body .container .About .block .text > h1 {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Minecraft";
+  font-size: var(--blocktitlesize);
+  color: white;
+  text-align: center;
+}
+.App .body .container .About .block .text > p {
+  margin: 0 auto;
+  width: 80%;
+  font-family: "Roboto Mono";
+  font-size: var(--blocktextsize);
+  color: white;
+  text-align: center;
+}
+.App .body .container .About .block1 .img {
+  background-image: url(490197755c877bbf2950.png);
+}
+.App .body .container .About .block2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.App .body .container .About .block2 .img {
+  width: 40%;
+  background-image: url(7d28eddb52cb654aa2a3.png);
+}
+.App .body .container .About .block2 .text {
+  width: 60%;
+}
+.App .body .container .About .block3 .img {
+  background-image: url(d345a9ec9b9b20e3c0e4.png);
+}
+.App .body .container .Moderation {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.App .body .container .Moderation .title {
+  font-family: "Minecraft";
+  font-size: calc(var(--blocktitlesize) * 2);
+  color: #FFF;
+}
+.App .body .container .Moderation .text {
+  font-family: "Roboto Mono";
+  font-size: var(--blocktextsize);
+  text-align: center;
+  color: #FFF;
+}
+.App .body .container .Social {
+  margin-top: 10%;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App .body .container .Social .title {
+  font-family: "Minecraft";
+  font-size: calc(var(--blocktitlesize) * 2);
+  color: #FFF;
+}
+.App .body .container .Social .blocks {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 32%;
+  margin-top: 6%;
+}
+.App .body .container .Social .blocks .block {
+  width: 27vw;
+  height: 70vh;
+}
+.App .body .container .Social .blocks .block .light {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -10px;
+  width: 27vw;
+  height: 70vh;
+  background: #2C901B;
+  filter: blur(25px);
+}
+.App .body .container .Social .blocks .block .body1 {
+  width: 25vw;
+  height: 68vh;
+  background-color: #3AA12A;
+}
+.App .body .container .Social .blocks .block-soc-3 {
+  margin-top: 10%;
+  margin-left: 33%;
+}
+.App .body .container .HowToPlay {
+  margin-top: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .body .container .HowToPlay .title {
+  font-family: "Minecraft";
+  font-size: calc(var(--blocktitlesize) * 2);
+  color: #FFF;
+}
+.App .body .container .HowToPlay .block {
+  margin-top: 10vh;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.App .body .container .HowToPlay .block .img {
+  background-image: url(490197755c877bbf2950.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 300px;
+}
+.App .body .container .HowToPlay .block .text {
+  align-items: center;
+  margin-top: 5%;
+}
+.App .body .container .HowToPlay .block .text > h1 {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Minecraft";
+  font-size: var(--blocktitlesize);
+  color: white;
+  text-align: center;
+}
+.App .body .container .HowToPlay .block .text > p {
+  margin: 0 auto;
+  width: 80%;
+  font-family: "Roboto Mono";
+  font-size: var(--blocktextsize);
+  color: white;
+  text-align: center;
+}
+.App .body .container .HowToPlay .block4 .img {
+  background-image: url(5d0e060c48a2a2d318ca.png);
+}
+.App .body .container .HowToPlay .block5 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.App .body .container .HowToPlay .block5 .img {
+  width: 40%;
+  background-image: url(59bb1c10149556969e19.png);
+}
+.App .body .container .HowToPlay .block5 .text {
+  width: 60%;
+}
